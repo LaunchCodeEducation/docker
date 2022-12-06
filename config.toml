@@ -3,10 +3,10 @@ languageCode = 'en-us'
 title = 'Intro to Docker'
 theme = "hugo-theme-relearn"
 
+canonifyURLs = true
+
 [params]
   themeVariant = ["lc-light", "lc-dark-blue", "lc-dark-blue-two"]
-
-canonifyURLs = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
